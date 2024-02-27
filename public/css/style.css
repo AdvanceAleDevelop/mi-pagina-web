@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 16px;
+    align-self: center;
+ }
+       
+    
+    
+
+.header{
+    background-color:#EAC926;
+}
+
+.banner-container{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+    padding: 20px;
+} 
+
+.burger-menu {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    width: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+
+
+
+
+.container i {
+    margin-right: 5px;
+}
+
+.iconos-footer{
+    text-align: center;
+    color: blue;
+    line-height: 5px;
+    
+}
+
+footer ul h3{
+    margin: 0px;
+    margin-top: 15px;
+}
+
+footer ul p{
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   }
+  
+
+
+.articulos{
+    margin: 15px;
+    border: 15px solid #ebebeb;
+  
+
+}
+
+
+
+    section article .off{
+        color: green;
+    }
+.descripcion-producto i{
+    display: block;
+    position: absolute;
+    font-size: 16px;
+    border: solid 1px #39b54a;
+    color: #39b54a;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #FFF;
+    right: 20px;
+    top: -15px;
+}
+
+.fa-solid.fa-truck {
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Agregado */
+}
+
+   
+
+
+ 
+.informacion{
+    text-align: left;
+}
+
+/*-*-*-*-*-*NAVEGACION EN TABLETS*-*-*-*-*-*-*/
+
+@media(min-width: 770px){
+    .product__descripcion__name{
+        display: block;
+    }
+}
+
+img, .product__descripcion__name{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+
+}
+
+.burger-menu{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/***---***---NAVEGACION EN DESKTOP---***---***/
+
+@media(min-width:1000px){
+    .computadora{
+        display: block;
+    }
+
+}
+
+img, .computadora{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.burger-menu{
+    display: none;
+}
+
+
+/*-------:::::::::>>>> FlexBox <<<<:::::::::---------*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+.navegador-izquierda{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+.navegador-derecha{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+
+
+.camion{ 
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    right: -230px
+}
+
+.ultima-visita, .ofertas{
+    display: flex;
+}
+  
+
+  /*>>>>>>>ENCABEZADO<<<<<<<<*/
+
+  .encabezado {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    flex: 1;
+    max-width: 50%; 
+  }
+
+  .buscador {
+    flex: 1;
+    max-width: 50%;
+  }
+
+
+  /*********html*********/
+
+  html{
+    line-height: 1,15;
+    -webkit-text-size-adjust: 100%;
+    
+  }

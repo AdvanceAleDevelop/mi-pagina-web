@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="css/stylesregister.css">
+    <title>registro</title>
+</head>
+<body>
+
+    <form action="/registro" method="POST">
+        <label>
+            Nombre y Apellido:
+            <input type="text" placeholder="Nombre y Apellido">
+        </label>
+        <label>
+            Nombre de Usuario:
+            <input type="user" placeholder="Usuario">
+        </label>
+        <label>
+            Email:
+            <input type="email" placeholder="Email">
+        </label>
+        <label>
+            Fecha de nacimiento:
+            <input type="date" placeholder="Fecha de nacimiento">
+        </label>
+        <label>
+            Domicilio:
+            <input type="domicile" placeholder="Domicilio">
+        </label>
+
+        <label> Perfil del Usuario:
+        <input type="radio" name="comprar-vender"> Comprar
+        <input type="radio" name="comprar-vender"> Vender
+        </label> 
+         
+        <label>Intereses:</label>
+        <select name="categorias">
+            <option value="ELECTR">Electro</option>
+            <option value="MODE">Moda</option>
+            <option value="HOGAR">Hogar</option>
+            <option value="JUGUETES">Electro</option>
+            <option value="VIDA SANA">Vida Sana</option>
+
+            <h4>Elegí tu foto de usuario</h4>
+            <input type="file" name="avatar">
+            <br>
+            <br>
+            <input type="password" name="pass" placeholder="Elegí tu contraseña">
+            <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            <br>
+            <br>
+
+        </form>
+    
+</body>
+</html>
